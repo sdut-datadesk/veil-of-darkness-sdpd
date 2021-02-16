@@ -15,7 +15,7 @@ The Union-Tribune modeled its Veil of Darkness analysis on Stanford University's
 
 The San Diego Police Department data tables contain all pedestrian and traffic stops from July 2018 through December 2020. The original data tables are compiled in nine, .csv files that are available for download on the [city's data portal website](https://data.sandiego.gov/datasets/police-ripa-stops/).
 
-Parts of the analysis code contained in this notebook was written by the [Stanford Open Policing Project](https://openpolicing.stanford.edu/), which has analyzed traffic stop data at dozens of law enforcement agencies across the nation. The remaining code was customized to apply to SDPD data and was annotated by *The San Diego Union-Tribune.* 
+Parts of the analysis code contained in this notebook was written by the [Stanford Open Policing Project](https://openpolicing.stanford.edu/), which has analyzed traffic stop data at dozens of law enforcement agencies across the nation. The remaining code was written by the Union-Tribune to apply to SDPD data.
 
 Since more than one individual can be involved a stop (deputies are required to record the ethnicity of drivers and passengers) the Union-Tribune opted to analyze the race of each person involved, which is the same technique used by RIPA officials.
 
