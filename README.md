@@ -7,21 +7,21 @@ This repository contains data and code for the analysis [reported and published]
 
 The Racial and Identity Profiling Act of 2015 (RIPA) requires nearly all California law enforcement agencies to submit demographic data on all detentions and searches. The Union-Tribune obtained in January stop data from the San Diego County Sheriff's Department under the California Public Records Act.
 
-The Union-Tribune collected this data to conduct what is known as a "Veil of Darkness" test, which is used by criminal justice researchers across the country. It tests for racial profiling by determining whether law officers pulled over people of a particular race at a higher rate when it’s light outside — and race is presumably more visible — than when it’s dark.
+The Union-Tribune collected this data to conduct what is known as a "Veil of Darkness" test, which is ssed by criminal justice researchers across the country. It attempts to identify racial profiling by determining whether officers pull over drivers of particular ethnicities more often during daylight hours — when race is presumably more visible — than after dark. 
 
 The Union-Tribune modeled its Veil of Darkness analysis on Stanford University's [Open Policing Project](https://openpolicing.stanford.edu/tutorials/) and the methodology of previous Veil of Darkness analyses conducted by the [RIPA Board](https://oag.ca.gov/sites/all/files/agweb/pdfs/ripa/ripa-board-report-2020.pdf).
 
 ### Methodology / Notes
 
-The San Diego Police Department data tables contain all pedestrian and traffic stops from July 2018 through December 2020. The original data tables are compiled in nine, .csv files that are available for download on the [city's data portal website](https://data.sandiego.gov/datasets/police-ripa-stops/).
+The San Diego Police Department data tables contain all pedestrian and traffic stops from July 2018 through December 2020. The original data tables are compiled in nine .csv files that are available for download on the [city's data portal website](https://data.sandiego.gov/datasets/police-ripa-stops/).
 
-Parts of the analysis code contained in this notebook was written by the [Stanford Open Policing Project](https://openpolicing.stanford.edu/), which has analyzed traffic stop data at dozens of law enforcement agencies across the nation. The remaining code was written by the Union-Tribune to apply to SDPD data.
+Parts of the analysis code contained in this notebook were written by the [Stanford Open Policing Project](https://openpolicing.stanford.edu/), which has analyzed traffic stop data from dozens of law enforcement agencies across the nation. The remaining code was written by the Union-Tribune. 
 
 Since more than one individual can be involved a stop (deputies are required to record the ethnicity of drivers and passengers) the Union-Tribune opted to analyze the race of each person involved, which is the same technique used by RIPA officials.
 
 To avoid analyzing an incomplete set of data in 2018 and incorporating abnormalities in driving patterns due to the coronavirus pandemic in early 2020, the Union-Tribune opted to conduct its Veil of Darkness analysis on the 75,320 individuals involved in traffic stops in 2019.
 
-Of that total, the Union-Tribune chose to analyze stops that occurred during what is known as the “inter-twilight period,” which is the range from the earliest time of dusk in a year to the latest time dusk occurs in that same year.
+Of that total, the Union-Tribune chose to analyze stops that occurred during what is known as the “inter-twilight period,” which is the range from the earliest time of dusk in a year to the latest time that dusk occurs in that same year.
 
 Analyzing stops in this inter-twilight period adjusts for both the time of day and the demographics of commuters, since commuters who leave work at 6 p.m. will most likely be on the road at the same time each day, regardless of whether it’s light or dark outside.
 
@@ -31,7 +31,7 @@ The Union-Tribune removed any stops that occurred in an approximate 30-minute wi
 
 In some circumstances, officers list more than one perceived race for an individual involved in traffic stops. 
 
-Individuals who were perceived as Hispanic and any other race, were included in Hispanic totals. Individuals perceived as more than one race were categorized as those with two or more race. The remaining race categories were left the same.
+Individuals who were perceived as Hispanic and any other race, were included in Hispanic totals. Individuals perceived as more than one race were categorized as those with two or more races. The remaining race categories were left the same.
 
 When conducting a Veil of Darkness test, latitude and longitude coordinates for each stop, along with the time in which a stop occurred, are typically used to determine if a stop took place during the day or at night.
 
