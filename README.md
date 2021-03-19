@@ -7,7 +7,7 @@ This repository contains data and code for the analysis [reported and published]
 
 The Racial and Identity Profiling Act of 2015 (RIPA) requires nearly all California law enforcement agencies to submit demographic data on all detentions and searches. The Union-Tribune obtained in January stop data from the San Diego County Sheriff's Department under the California Public Records Act.
 
-The Union-Tribune collected this data to conduct what is known as a "Veil of Darkness" test, which is ssed by criminal justice researchers across the country. It attempts to identify racial profiling by determining whether officers pull over drivers of particular ethnicities more often during daylight hours — when race is presumably more visible — than after dark. 
+The Union-Tribune collected this data to conduct what is known as a "Veil of Darkness" test, which is used by criminal justice researchers across the country. It attempts to identify racial profiling by determining whether officers pull over drivers of particular ethnicities more often during daylight hours — when race is presumably more visible — than after dark. 
 
 The Union-Tribune modeled its Veil of Darkness analysis on Stanford University's [Open Policing Project](https://openpolicing.stanford.edu/tutorials/) and the methodology of previous Veil of Darkness analyses conducted by the [RIPA Board](https://oag.ca.gov/sites/all/files/agweb/pdfs/ripa/ripa-board-report-2020.pdf).
 
