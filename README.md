@@ -17,7 +17,7 @@ The San Diego Police Department data tables contain all pedestrian and traffic s
 
 Parts of the analysis code contained in this notebook were written by the [Stanford Open Policing Project](https://openpolicing.stanford.edu/), which has analyzed traffic stop data from dozens of law enforcement agencies across the nation. The remaining code was written by the Union-Tribune. 
 
-Since more than one individual can be involved a stop (officers are required to record the race and ethnicity of drivers and passengers) the Union-Tribune opted to analyze the race and ethnicity of each person involved, which is the same technique used by RIPA officials.
+Since more than one individual can be involved in a stop (officers are required to record the race and ethnicity of drivers and passengers) the Union-Tribune opted to analyze the race and ethnicity of each person involved, which is the same technique used by RIPA officials.
 
 To avoid analyzing an incomplete set of data in 2018 and incorporating abnormalities in driving patterns due to the coronavirus pandemic in early 2020, the Union-Tribune opted to conduct its Veil of Darkness analysis on the 75,320 individuals involved in traffic stops in 2019.
 
